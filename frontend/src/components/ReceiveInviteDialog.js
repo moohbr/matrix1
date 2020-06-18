@@ -12,13 +12,13 @@ const ReceiveInviteDialog = ({ open, onClose, onConfirm, invitation }) => (
     <DialogTitle>You have an invitation</DialogTitle>
     <DialogContent>
       <DialogContentText>
-        {invitation.user && invitation.user.name} invited you to{" "}
-        {invitation.room && invitation.room.name}. Do you want to accept it?
+        {invitation.user && invitation.user.name} Convidou você para {" "}
+        {invitation.room && invitation.room.name}. Você aceita ?
       </DialogContentText>
     </DialogContent>
     <DialogActions>
       <Button onClick={onClose} color="primary">
-        No
+        Não
       </Button>
       <Button
         onClick={() => {
@@ -28,7 +28,7 @@ const ReceiveInviteDialog = ({ open, onClose, onConfirm, invitation }) => (
         color="primary"
         autoFocus
       >
-        Yes, take me there
+        Sim, me leve até lá.
       </Button>
     </DialogActions>
   </Dialog>
