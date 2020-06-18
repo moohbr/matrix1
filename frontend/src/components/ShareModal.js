@@ -45,7 +45,7 @@ const ShareModal = ({ open, onClose }) => {
       </DialogContent>
       <DialogActions>
         <Button onClick={onClose} color="primary">
-          Close
+          Fechar
         </Button>
       </DialogActions>
     </Dialog>
