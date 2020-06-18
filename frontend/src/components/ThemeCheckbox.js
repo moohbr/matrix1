@@ -7,7 +7,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 
 function ThemeCheckbox({ onChange }) {
   return (
-    <Tooltip title="Toggle light/dark theme">
+    <Tooltip title="Acender/Apagar a Luz">
       <Checkbox
         icon={<EmojiObjectsIcon />}
         checkedIcon={<EmojiObjectsIcon />}
