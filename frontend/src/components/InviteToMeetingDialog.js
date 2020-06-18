@@ -23,7 +23,7 @@ const InviteToMeetingDialog = ({
     </DialogContent>
     <DialogActions>
       <Button onClick={onClose} color="primary">
-        Cancel
+        Cancelar
       </Button>
       <Button
         onClick={() => {
@@ -33,7 +33,7 @@ const InviteToMeetingDialog = ({
         color="primary"
         autoFocus
       >
-        Invite
+        Convidar
       </Button>
     </DialogActions>
   </Dialog>
